@@ -43,7 +43,7 @@ MODIFY COLUMN money DECIMAL(10,2);
 UPDATE index_1
 SET coffee_name = TRIM(coffee_name);
 
-✔  REPLACE synthax errors
+✔  Replace synthax errors
 UPDATE index_1
 SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
 
