@@ -47,6 +47,10 @@ SET coffee_name = TRIM(coffee_name);
 UPDATE index_1
 SET coffee_name = REPLACE(coffee_name, 'expresso', 'espresso');
 
+## 📈 Predictive Analysis (2024 Only)
+
+A simple predictive model was implemented using Linear Regression to estimate daily coffee machine sales for 2024. The model captures the overall trend of transactions and illustrates how basic forecasting techniques can support business decisions, such as optimizing stock levels and identifying high-demand products.
+
 
 
 ## 📊 Key Insights
